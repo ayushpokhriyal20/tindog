@@ -1,0 +1,178 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title {
+   background-color:black; /*#FF2626; */
+   color:azure;
+   height: 500px;
+
+
+}
+
+h1 {
+    font-family:"Montserrat";
+  
+    size:3.5rem;
+    
+    /* line-height:1.5; line nmber 634 in bootstrap.css(uncomment them)y */
+}
+
+ h3{
+    font-family: "Montserrat";
+    
+}
+p{
+    color: #8f8f8f;
+}
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    
+    
+}
+
+.container-fluid {
+    padding:1% 15%;
+    
+    
+    
+
+}
+
+#nav-btn {
+    margin-top: 30px;
+    margin-right: 1rem;
+}
+.nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat";
+}
+
+
+.title-image {
+    width:15%;
+    transform: rotate(25deg);
+    position: absolute;
+    top:180px;
+
+}
+
+
+
+#features {
+    padding:7% 15%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    color:azure;
+
+}
+.feature-box {
+    text-align: center;
+    padding:5%;
+   
+
+}
+
+.dog-img {
+    margin-left:70%;
+    
+
+}
+.icon{
+    color:#FF2626;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color:azure;
+}
+
+
+#testimonials{
+    padding:7% 17%;
+    text-align: center;
+    background-color:black;
+    color:azure;
+   
+}
+.testimonial-image {
+    margin-top:20px;
+    border-radius: 150px;
+    width:20%;
+    
+}
+#press {
+   background-color: black;
+   text-align: center;
+   padding-bottom: 5%;
+}
+
+.press-logo {
+    width:15%;
+    margin:20px 20px 50px;
+} 
+ 
+ .carousel-item {
+     padding:7% 18%;
+ }  
+
+ #pricing {
+     padding:100px;
+     text-align: center;
+ }
+ .pricing-column {
+     padding:3%;
+
+ }
+ 
+ @media (max-width:1028px) {
+
+      #title {
+          text-align: center;
+      }
+     .title-image{
+         position: static;
+         width:45%;
+         margin-top: 20px;
+         transform: none;
+        }
+     #features {
+         position: static;
+         padding-top: 360px;
+     }
+     .dog-img {
+         margin:auto;
+         
+     }
+     #footer {
+         margin: auto;
+     }
+
+     
+ }
+ .carousel-outline {
+     margin-top: -100px;
+ }
+
+ #cta{
+     background-color: black;
+     text-align: center;
+     padding:10% 10%;
+     color:azure;
+ }
+ .cta-icon {
+     margin-right: 6px;
+ }
+
+
+ #footer {
+     text-align: center;
+     background-color: black;
+     margin-top:-70px;
+ }
+ .icon-footer {
+    width:20px;
+    margin: 2%;
+  }
